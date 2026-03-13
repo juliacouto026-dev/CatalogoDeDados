@@ -1,0 +1,22 @@
+body {
+    background-color: #e6ffe6;
+}
+  
+h1 {
+    color: Black ;
+    text-align: center;
+}
+  
+  p {
+    font-family: verdana;
+      font-size: 20px;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+}
+.card img{
+    width: 200px;;
+}
