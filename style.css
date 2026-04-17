@@ -1,29 +1,73 @@
 body {
-    background-color: #e6ffe6;
+    background-color: #FFFBF1;
 }
-  
-h1 {
-    color: Black ;
+.header {
     text-align: center;
-    font-family: georgia;
+    padding: 36px 20px 24px;
+    margin-bottom: 16px;
+}
+
+.subtitulo {
+    font-size: 12px;
+    color: #c0a0a0;
+    font-style: italic;
+    font-family: Georgia, serif;
+    margin-top: 4px;
+}
+
+.linha {
+    width: 50px;
+    height: 2px;
+    background: #E36A6A;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+h1 {
+    color: #E36A6A ;
+    font-family:  Georgia, serif;
+    font-style: italic;
 }
 
 
 .card-grid{
-    display:flex; <!--container flexivel, linha e tabela -->
+    display:flex; 
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
     padding: 24px;
 }
 
+.card-title {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #3a2a2a;
+  margin: 8px 0 2px;
+}
+
+.card-author {
+  font-family: Georgia, serif;
+  font-size: 11px;
+  color: #b08080;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.stars {
+  color: #E36A6A;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
 .card {
-   background-color: white;
+   background-color: #f7f0de;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #FFB2B2;
   padding: 10px;
   width: 170px;
   text-align: center;
+  position: relative;
 }
 
 .card img {
@@ -39,3 +83,23 @@ h1 {
   color: #333;
   margin: 10px 0;
 }
+
+.btn-buy {
+  width: 100%;
+  padding: 7px 0;
+  background: transparent;
+  border: 1px solid #E36A6A;
+  border-radius: 20px;
+  color: #E36A6A;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn-buy:hover {
+  background: #E36A6A;
+  color: #fff;
+}
+
+
+
