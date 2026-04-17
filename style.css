@@ -3,8 +3,8 @@ body {
 }
 .header {
     text-align: center;
-    padding: 36px 20px 24px;
-    margin-bottom: 16px;
+    padding: 36px 20px 24px;<!-- espaço interno (cima, lados, baixo)-->
+    margin-bottom: 16px;<!-- espaço abaixo do cabecalho-->
 }
 
 .subtitulo {
@@ -12,15 +12,15 @@ body {
     color: #c0a0a0;
     font-style: italic;
     font-family: Georgia, serif;
-    margin-top: 4px;
+    margin-top: 4px;<!-- espaço acima-->
 }
 
 .linha {
-    width: 50px;
+    width: 50px;<!--largura pequena-->
     height: 2px;
     background: #E36A6A;
     margin: 10px auto 0;
-    border-radius: 2px;
+    border-radius: 2px; <!--pontas levemente arredondadas-->
 }
 
 h1 {
@@ -31,10 +31,10 @@ h1 {
 
 
 .card-grid{
-    display:flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
+    display:flex; <!--contêiner flexível, permitindo alinhar e distribuir itens-->
+    flex-wrap: wrap;<!--quebra pra próxima linha se não coube-->
+    justify-content: center;<!-- centraliza na tela-->
+    gap: 24px;<!--espaco entre cards-->
     padding: 24px;
 }
 
@@ -62,18 +62,18 @@ h1 {
 
 .card {
    background-color: #f7f0de;
-  border-radius: 10px;
+  border-radius: 10px;<!--cantos arredondados-->
   border: 1px solid #FFB2B2;
   padding: 10px;
   width: 170px;
   text-align: center;
-  position: relative;
+  position: relative;<--referencia para elementos-->
 }
 
 .card img {
   width: 140px;
   height: 200px;
-  object-fit: cover;
+  object-fit: cover;<!--recorta sem distorcer-->
   border-radius: 2px;
 }
 
@@ -88,12 +88,12 @@ h1 {
   width: 100%;
   padding: 7px 0;
   background: transparent;
-  border: 1px solid #E36A6A;
+  border: 1px solid #E36A6A;<!--borda-->
   border-radius: 20px;
   color: #E36A6A;
   font-family: Georgia, serif;
   font-size: 12px;
-  cursor: pointer;
+  cursor: pointer;<!--cursor de mao-->
 }
 
 .btn-buy:hover {
