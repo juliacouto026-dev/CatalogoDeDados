@@ -5,26 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Define como um site e renderizado em dispositivos moveis, ajustando a largura da pagina a tela do aparelho -->
     <title>Title</title><!--Define o titulo do documento-->
     <link rel = "stylesheet" href="style.css">
+
 </head>
 <body><!--Mostra todos os elementos visuais da pagina-->
+   <div class="header">
     <h1>Catálogo de Livros</h1>
+    <p class="subtitulo">Livros que você vai amar!</p>
+    <div class="linha"></div>
+</div>
+
     <div class="card-grid"> <!-- caixa que organiza os cards-->
-        <div class = "card">
+
+        <div class = "card"> <!--Div principal que agrupa todos os elementos do card -->
         <!--Atributos da classe card-->
-            <img src="Livro-Emma.jpg"alt="Capa de livro ">
-            <p> Emma - Jane Austen </p>
-            <button type="submit">Link de compra</button>
+            <img src="Livro-Emma.jpg"alt="Capa de livro "> <!-- Imagem da capa do livro SRC= arq da imagem ALT= descreve 'o que e'-->
+            <p class="card-title">Emma</p> <!-- Paragrafo com titulo-->
+            <p class="card-author">Jane Austen</p> <!-- Paragrafo com nome do autor-->
+            <div class="stars">★★★★☆</div> <!--avaliacao em estrelas -->
+            <button class="btn-buy">Link de compra</button><!-- Botao que futuramente recebera o livro-->
         </div>
+
         <div class = "card">
             <img src="Livro-Op.jfif"alt="Capa de livro ">
-            <p> Orgulho e Preconceito - Jane Austen </p>
-            <button type="submit">Link de compra</button>
+            <p class="card-title">Orgulho e Preconceito</p>
+            <p class="card-author">Jane Austen</p>
+            <div class="stars">★★★★★</div>
+            <button class="btn-buy">Link de compra</button>
         </div>
+
         <div class = "card">
             <img src="Livro-Mulherzinhas.jfif"alt="Capa de livro ">
-            <p> Mulherzinhas - Jane Austen </p>
-            <button type="submit">Link de compra</button>
+            <p class="card-title">Mulherzinhas</p>
+            <p class="card-author">Louisa May Alcott</p>
+            <div class="stars">★★★★☆</div>
+            <button class="btn-buy">Link de compra</button>
+            
         </div>
+
+        <div class = "card">
+            <img src="Livro-Hp1.webp"alt="Capa de livro ">
+            <p class="card-title">Harry Potter e a Pedra Filosofal</p>
+            <p class="card-author">J.K Rowling</p>
+            <div class="stars">★★★★☆</div>
+            <button class="btn-buy">Link de compra</button>
+
+        </div>
+
+         <div class = "card">
+            <img src="Livro-Anne1.webp"alt="Capa de livro ">
+            <p class="card-title">Anne de Green Gables</p>
+            <p class="card-author">L.M Montgomery</p>
+            <div class="stars">★★★★☆</div>
+            <button class="btn-buy">Link de compra</button>
+
+        </div>
+
     </div>
 
 
