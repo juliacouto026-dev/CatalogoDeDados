@@ -10,7 +10,7 @@ h1 {
 
 
 .card-grid{
-    display:flex; <!--container flexivel-->
+    display:flex; <!--container flexivel, linha e tabela -->
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
