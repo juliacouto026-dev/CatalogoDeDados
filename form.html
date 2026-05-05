@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <style>
+        }
+    </style>
+    <script src= "script.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário - Catálogo de Livros</title>
@@ -8,24 +13,22 @@
 </head>
 <body>
 
-<h2>Formulário - Catálogo de livros</h2>
-<form action ="/action_page.php"><!--indica para onde os dados serão enviados quando o usuário clicar em Submit-->
+<h2 id ="titulo">Formulário - Catálogo de livros</h2>
 
-    <label for="imagem">URL da imagem:</label><br> <!--label=texto descritivo de cada campo, id e for Conecta o label ao campo visualmente-->
+
+    <form id="meuFormulario">
+
+    <label for="imagem">URL da imagem:</label><br>
     <input type="url" id="imagem" name="imagem" placeholder="URL da imagem"><br><br>
 
-    <label for="fname"> Nome do livro:</label><br>
-    <input type="text" id ="fname" name="fname" placeholder = "Coloque o nome do livro"><br><br>
+    <label for="lname"> Nome do livro:</label><br>
+    <input type="text" id ="lname" name="fname" placeholder = "Coloque o nome do livro"><br><br>
 
-    <label for ="lname">Nome do autor:</label><br>
-    <input type="text" id="lname" name="lname" placeholder="Coloque o nome do autor "><br><br>
+    <label for ="aname">Nome do autor:</label><br>
+    <input type="text" id="aname" name="lname" placeholder="Coloque o nome do autor "><br><br>
 
    <input type="submit" onclick="alterarFundo()" value="Adicionar">
-  </form> 
-
-
-
-
+</form>
 
 </body>
 </html>
